@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { Recipes7recipeListComponent } from './recipes7recipe-list/recipes7recipe-list.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     RecipesComponent,
-    Recipes7recipeListComponent
+    Recipes7recipeListComponent,
+    RecipeListComponent
   ],
   imports: [
     BrowserModule,
